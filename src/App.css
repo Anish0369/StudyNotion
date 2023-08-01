@@ -1,0 +1,180 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+.code-border {
+    background: linear-gradient(111.93deg,rgba(14,26,45,.24) -1.4%,rgba(17,30,50,.38) 104.96%);
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom,#ffffff38,#ffffff00);
+}
+
+.homepage_bg{
+    background: url("../src/assets/Images/bghome.svg");
+}
+
+.codeblock1, .codeblock2{
+    border-radius: 100%;
+    -webkit-filter: blur(34px);
+    filter: blur(34px);
+    height: 257.05px;
+    left: calc(50% - 263.005px);
+    opacity: .2;
+    top: calc(50% - 175.995px);
+    -webkit-transform: matrix(1,0,-.03,1,0,0);
+    transform: matrix(1,0,-.03,1,0,0);
+    width: 372.95px;
+}
+
+.codeblock1 {
+    background: linear-gradient(123.77deg,#8a2be2 -6.46%,orange 59.04%,#f8f8ff 124.53%);
+}
+
+.codeblock2 {
+    background: linear-gradient(139.88deg, #2364c0 -6.46%,rgb(34, 198, 220) 59.04%,#8f8fe6 124.53%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* https://10015.io/tools/css-loader-generator */
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid #f1f2ff;
+    animation: spinner-bulqg1 0.8s infinite linear alternate,
+      spinner-oaa3wk 1.6s infinite linear;
+  }
+
+  @keyframes spinner-bulqg1 {
+    0% {
+      clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+    }
+  
+    12.5% {
+      clip-path: polygon(
+        50% 50%,
+        0 0,
+        50% 0%,
+        100% 0%,
+        100% 0%,
+        100% 0%,
+        100% 0%
+      );
+    }
+  
+    25% {
+      clip-path: polygon(
+        50% 50%,
+        0 0,
+        50% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        100% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(
+        50% 50%,
+        0 0,
+        50% 0%,
+        100% 0%,
+        100% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+  
+    62.5% {
+      clip-path: polygon(
+        50% 50%,
+        100% 0,
+        100% 0%,
+        100% 0%,
+        100% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+  
+    75% {
+      clip-path: polygon(
+        50% 50%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+  
+    100% {
+      clip-path: polygon(
+        50% 50%,
+        50% 100%,
+        50% 100%,
+        50% 100%,
+        50% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+  }
+  
+  @keyframes spinner-oaa3wk {
+    0% {
+      transform: scaleY(1) rotate(0deg);
+    }
+  
+    49.99% {
+      transform: scaleY(1) rotate(135deg);
+    }
+  
+    50% {
+      transform: scaleY(-1) rotate(0deg);
+    }
+  
+    100% {
+      transform: scaleY(-1) rotate(-135deg);
+    }
+  }
+
+  .label-style {
+    @apply text-[14px] text-richblack-5;
+  }
+  .light-label-style {
+    @apply text-[14px] text-richblack-700;
+  }
+  .form-style {
+    @apply rounded-lg bg-richblack-700 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+  }
+
+  .light-form-style {
+    @apply rounded-lg bg-richblack-5 p-3 text-[16px] leading-[24px] text-richblack-700 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+  }
+  
+  .blackButton {
+    @apply cursor-pointer rounded-md  bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5;
+  }
+
+  .section_heading{
+    @apply text-2xl font-bold text-richblack-5 lg:text-4xl;
+  }
+
+  .yellowButton{
+    @apply cursor-pointer rounded-md bg-yellow-50 px-[20px] py-[8px] font-semibold text-richblack-900;
+  }
+ 
