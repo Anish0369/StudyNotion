@@ -21,10 +21,10 @@ Gain valuable skills and knowledge.
 
 # Key Features
  
-Course Creation: Instructors can easily create and upload their courses using our user-friendly course creation tools.
-Course Discovery: Users can discover courses from various domains and find subjects that pique their interest.
-Enrollment: Users can enroll in courses they wish to learn and access them instantly.
-Progress Tracking: Keep track of your course progress and pick up where you left off.
-Mobile-Friendly: StudyNotion is accessible on multiple devices, including smartphones and tablets.
+1.Course Creation: Instructors can easily create and upload their courses using our user-friendly course creation tools.
+2.Course Discovery: Users can discover courses from various domains and find subjects that pique their interest.
+3.Enrollment: Users can enroll in courses they wish to learn and access them instantly.
+4.Progress Tracking: Keep track of your course progress and pick up where you left off.
+5.Mobile-Friendly: StudyNotion is accessible on multiple devices, including smartphones and tablets.
 
 ## You can see our  app here - https://final-vsa.vercel.app/
