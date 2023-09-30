@@ -5,6 +5,14 @@ Welcome to StudyNotion, a cutting-edge online education platform built with the 
 
 # How it Works
 
+  
+
+ ![image](https://github.com/Anish0369/StudyNotion/assets/96392125/a1b7b31b-2e4b-4091-b823-aa85bb17325b)
+
+
+
+
+
 # Instructors:
 
 Create a profile and join our community of educators.
